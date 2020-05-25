@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>LibrarySystem</OriginalElement>
+  <nodes>
+    <node x="238.49999999999997" y="448.0">LibrarySystem.LibrarySystem</node>
+    <node x="237.0" y="0.0">LibrarySystem.LibraryDeposit</node>
+    <node x="217.0" y="247.0">LibrarySystem.Borrower</node>
+    <node x="0.0" y="247.0">LibrarySystem.Returner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="LibrarySystem.Returner" target="LibrarySystem.LibraryDeposit">
+      <point x="49.25" y="-70.5" />
+      <point x="147.75" y="217.0" />
+      <point x="277.25" y="217.0" />
+      <point x="-40.25" y="93.5" />
+    </edge>
+    <edge source="LibrarySystem.LibrarySystem" target="LibrarySystem.Borrower">
+      <point x="-13.166666666666629" y="-27.5" />
+      <point x="304.33333333333337" y="408.0" />
+      <point x="267.25" y="408.0" />
+      <point x="-50.25" y="70.5" />
+    </edge>
+    <edge source="LibrarySystem.LibrarySystem" target="LibrarySystem.Returner">
+      <point x="-39.5" y="-27.5" />
+      <point x="278.0" y="418.0" />
+      <point x="147.75" y="418.0" />
+      <point x="49.25" y="70.5" />
+    </edge>
+    <edge source="LibrarySystem.LibrarySystem" target="LibrarySystem.LibraryDeposit">
+      <point x="39.5" y="-27.5" />
+      <point x="357.0" y="418.0" />
+      <point x="428.5" y="418.0" />
+      <point x="428.5" y="217.0" />
+      <point x="357.75" y="217.0" />
+      <point x="40.25" y="93.5" />
+    </edge>
+    <edge source="LibrarySystem.Borrower" target="LibrarySystem.LibraryDeposit">
+      <point x="50.25" y="-70.5" />
+      <point x="367.75" y="227.0" />
+      <point x="330.91666666666663" y="227.0" />
+      <point x="13.416666666666629" y="93.5" />
+    </edge>
+  </edges>
+  <settings layout="Tree" zoom="1.0" x="203.5" y="229.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
